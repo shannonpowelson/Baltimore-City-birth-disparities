@@ -13,7 +13,30 @@ _How are birth weights distributed in Baltimore City based on race, household po
 
 
 ## Data Analysis
-  
+
+
+First use data analyses that show that a disparity does exist.  
+
+Then wanted to dive deeper into each individual variable to explore why this birth weight disparity exists.  Looked to see how household poverty and birth weights are related as shown in this scatterplot below
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Scatter_Plot_povertyandweight.png)
+
+It appears in this graph that for both the predominantly black and white communities, percent of babies born with a satisfactory birth weight is higher when the household poverty rate is lower.  This lead to the question, is this because people in poverty cannot afford prenatal care, or is it from the health conditions created by the chronic stress from living in poverty?
+
+Made a bubble plot to explore prenatal care, poverty, and birth weight at the same time (the bubble size is the poverty rate - larger bubble = higher poverty)
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Bubble_Plot.png)
+
+In this bubble plot, it appears that the percent of babies born with a satisfactory birth weight is increasing with prenatal care for white neighborhoods.  However, there does not appear to be an association for black neighborhoods.  
+
+To investigate this further, did two linear regressions as shown below:
+
+[alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_BlackCommunities.png)
+[alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_WhiteCommunities.png)
+
+Based on the R-squared values, we can see that for white communities, 42% of the data fits the linear regression model.  However, for black communities, 6.8% of the data fits the linear regression model.  Therefore, we are more certain of a positive association between prenatal care and percent of babies born with a satisfactory birth weight for white neighborhoods than we are for black neighborhoods.  
+
+Probably use this in the summary - the reason for this difference could be due to systematic racism in healthcare - prenatal care might work for white mothers, but not for black mothers due to racism - that is why other forms of prenatal care - like doulas - need to be available for black mothers
 
 ## Summary 
 
