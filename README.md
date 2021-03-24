@@ -31,8 +31,9 @@ In this bubble plot, it appears that the percent of babies born with a satisfact
 
 To investigate this further, did two linear regressions as shown below:
 
-[alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_BlackCommunities.png)
-[alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_WhiteCommunities.png)
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_BlackCommunities.png)
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Weight_Prenatalcare_WhiteCommunities.png)
 
 Based on the R-squared values, we can see that for white communities, 42% of the data fits the linear regression model.  However, for black communities, 6.8% of the data fits the linear regression model.  Therefore, we are more certain of a positive association between prenatal care and percent of babies born with a satisfactory birth weight for white neighborhoods than we are for black neighborhoods.  
 
