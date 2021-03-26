@@ -13,7 +13,7 @@ _How are birth weights distributed in Baltimore City based on race, household po
 
 
 ## Data Analysis
-Since infant mortality could be caused by a wide range of issues, we first wanted to understand the relationship between infant mortality and percent of babies born below satisfacotry birth weight (SBW). The scatterplot below shows the relationship between infant mortality and SBW. 
+Since infant mortality could be caused by a wide range of issues, we first wanted to understand the relationship between infant mortality and percent of babies born below satisfacotry birth weight (SBW) using the scatterplot below. 
 
 ![a;t text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birthweigth_InfantMortality.png)
 
