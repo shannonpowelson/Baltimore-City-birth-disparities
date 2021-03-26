@@ -13,9 +13,27 @@ _How are birth weights distributed in Baltimore City based on race, household po
 
 
 ## Data Analysis
+Since infant mortality could be caused by a wide range of issues, we first wanted to understand the relationship between infant mortality and percent of babies born below satisfacotry birth weight (SBW). The scatterplot below shows the relationship between infant mortality and SBW. 
 
+![a;t text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birthweigth_InfantMortality.png)
 
-First use data analyses that show that a disparity does exist.  
+This plot confirms a trend between the two variables where the R-squared value indicates 17.6% of the variance in infant mortality can be explained by SBW. This confirms our assumption that infant mortality is not the best metric for baby outcomes. We therefore attempt to identify factors influencing SBW going forward.
+
+To identify metrics which contribute to SBW, we performed multiple linear regression using the percentage of births with prenatal care, household poverty rate, racial diversity index, property crime, violent crime, domestic violence, and percent of the population identifying as black/African American as the independent variables. Rationale for selecting these metrics came from issues raised in the [article](https://www.nytimes.com/2018/04/11/magazine/black-mothers-babies-death-maternal-mortality.html) as well as reasoning that crime/violence will contribute to maternal stress, negatively impacting the fetus.
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/MLR_all_variables.png)
+
+For this regression, the only variables returned as being significant (p<0.05) were domestic violence and percent black/African American population. We reasoned that this may be due to the fact that several of these metrics are confounding and interrelated. We therefore looked at each metric using single linear regression using total life expectancy, infant mortality, and SWB as indepdnent variables.
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Simple_linear_for_three_outcomes.png)
+
+The table above shows R-squared values between the indicated variables. Conditional formatting was used to identify moderate relationships (green), mild to moderate relationships (yellow) and no relationship (red). Based on this anaysis, SWB is at least mildly to moderately associated with prenatal care, poverty, domestic violence and percent black/African American. Since these variables do not show the same relationship with infant mortality, we use these variables for the remaining analyses.
+
+To better understand how Baltimore communities fit into our vairalbes, we performed a three cluster analysis. The variables assessed were SWB, prenatal care, poverty rate, domestic violence, and the percentage of the three largest race populations: white, black/African American, and hispanic.
+
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/full_cluster_analysis.png)
+
+The clusters produced were notably delineated by race, as indicated above the bars in the plot. From this, we draw broad conclusions for each race. White populations have a high SWB and prenatal care but low incidence of poverty and domestic violence. On the other hand, black populations have a low SWB and prenatal care with higher domesitc violence and poverty. Interestingly, hispanic populations has a reasonable SWB despite low prenatal care and higher poverty and domestic violence. It is worth noting that individuals identifying as hispanic can also fall into white or black popoulations. These results demonstrate clear disparities 
 
 Then wanted to dive deeper into each individual variable to explore why this birth weight disparity exists.  Looked to see how household poverty and birth weights are related as shown in this scatterplot below
 
