@@ -1,1 +1,19 @@
+# This document outlines the workflow of data collection and analysis in Excel for the Midterm Project
 
+Raw data for this project were taken from the [Baltimore Open Data prject](https://data.baltimorecity.gov/). All datasets were indexed by community statistical area (CSA), which were used with Excel's vlookup funtion to combine individual metrics. All raw datasets, the combined dataset, and the calculations can be found in the [main write-up](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/README.md) as well as the primary github [repository](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities).
+
+## Regression analyses
+Multiple linear regression analysis was performed using % of Babies Born at Satisfactory Birth Weight (SBW) as the dependent variable and % of Births with Prenatal Care, Household Poverty Index, Racial Diversity Index, Property Crime Rate, Violent Crime Rate, Domestic Violence Rate, and the % of the CSA falling into white, black/African American, Hispanic, and Asian/Pacific Islander races respectively. Due to likely confouding relationships between variables, few of the p-values of this analysis were significant (p<0.05), so we followed-up by calculating R-squared values between each of the independent variables (just black/African American for race) and SBW, Life Expectancy and Infant Mortality Rate as dependent variables. We then used conditional formatting to highlight R-squared values above 0.45 as green, between, 0.3-0.45 as yellow, and below 0.3 as red. Yellow and green relationships to SBW were used for later analysis (prenatal care, poverty, domestic violence, race).
+
+We generated a scatterplot between SBW and Infant Mortality to demonstrate that variance in Infant Mortality is only particially explained by SBW, thus SBW is a better metric to use as a readout for birth outcomes. 
+
+Scatterplots between variables were generated between several variables and SBW. In some of these plots, data points were colored according to their cluster identity from out cluster analysis (see below). These clusters are colored blue, orange and grey. Other plots are colored red/blue to represent primarily black/African American communities and primarily white communities respectively. These color differences are denoted in the [main write-up](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/README.md) as well. 
+
+## Cluster Analysis
+Cluster analysis was performed on the data using SBW, prenatal care, poverty rate, domestic violence, white population, black/African American population, and Hispanic population. CSA were sorted into three clusters. The resulting z-scores for each variable within each cluster were plotted on a bar graph. We also performed this analysis using white population and black/African American populations as the sole race indicators and saw similar results. 
+
+## Bubble Plot
+
+
+## Geospatial analysis
+Geospatial data for CSA were downloaded for the household poverty dataset as a zip file. Since the CSA are consistent, this zip file was applicable to all analyses performed. These data were imported into mapbox.com to generate a basic map of Baltimore City with the CSAs outlined. CSAs were colored in accordance with cluster analysis data which used black/African American statistics as the sole race indicator. This was done using the chloropleth mapbox feature and manually selecting colors for CSAs to fit into based on the ID number within the zip file.
