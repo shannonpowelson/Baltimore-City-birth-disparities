@@ -24,6 +24,9 @@ All data from this analysis comes from the [Baltimore Open Data Hub](https://dat
 - [Domestic violence rate](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Domestic_Violence_Calls_For_Service_per_1%252C000_Residents.csv)
 
 ### Compiled Datasets
+- [Raw Compiled Data](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Compiled_data.xlsx)
+- [Manipulated Data]()
+
 
 A full explanation of methods can be found [here](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/data-analysis-workflow.md).
 
