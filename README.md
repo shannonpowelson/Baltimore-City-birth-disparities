@@ -58,13 +58,13 @@ This plot shows the relationship between poverty and SBW with points colored by 
 
 ![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Poverty_Birthweight.png)
 
-This plot shows the relationship between domestic violence rates and SBW with points colored by cluster. There is a moderate correlation between these indicated by the R-squared value of 0.307. While the points belonging to respective clusters are a bit more dispersed for this plot, there are still noteable boundaries. Both plots indicate that outcomes for primarily black/African American communities are somewhat predictable and in the disfavorable range. To better understand the white/black divide (the two major racial demographics in Baltimore), we colored the poverty vs SBW plot by racial community majority.
+This plot shows the relationship between domestic violence rates and SBW with points colored by cluster. There is a moderate correlation between these indicated by the R-squared value of 0.307. While the points belonging to respective clusters are a bit more dispersed for this plot, there are still noteable boundaries. Both plots indicate that outcomes for primarily black/African American communities are somewhat predictable and in the disfavorable range. To better understand the white/black divide (the two major racial demographics in Baltimore), we colored the poverty vs SBW plot by racial community majority using [Infogram](https://infogram.com/).
 
 ![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Scatter_Plot_povertyandweight.png)
 
 It appears in this graph that for both the predominantly black and white communities, percent of babies born with a satisfactory birth weight is higher when the household poverty rate is lower. There is also a moderately clear deliniation between the two populations on this plot, though these clusters were not by calculation. This lead us to ask if this relationship is more related to prenatal care or stress from living in poverty.
 
-To get at this question, we created a bubble plot to explore prenatal care, poverty, and birth weight simultaneously. In this plot, bubble size increase is proportional to increase in poverty rate.
+To get at this question, we created a bubble plot using [Infogram](https://infogram.com/) to explore prenatal care, poverty, and birth weight simultaneously. In this plot, bubble size increase is proportional to increase in poverty rate.
 
 ![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Bubble_Plot.png)
 
