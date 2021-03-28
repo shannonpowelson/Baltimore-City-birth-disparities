@@ -25,8 +25,11 @@ All data from this analysis comes from the [Baltimore Open Data Hub](https://dat
 
 ### Compiled Datasets
 - [Raw Compiled Data](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Compiled_data.xlsx)
-- [Manipulated Data]()
-
+- [Manipulated Data - Regressions and Graphs](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birth_Data_Disparities%20-%20Analysis.xlsx)
+- [Manipulated Data - Cluster Analysis - Black](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birth_Data_Disparities%20%20-%20Cluster%20Analysis%20-%20Black.xlsx)
+- [Manipulated Data - Cluster Analysis - Hispanic](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birth_Data_Disparities%20%20-%20Cluster%20Analysis%20-%20Hispanic.xlsx)
+- [Manipulated Data - Cluster Analysis - White](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birth_Data_Disparities%20%20-%20Cluster%20Analysis%20-%20White.xlsx)
+- [Manipulated Data - Cluster Analysis - All Races](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Birth_Data_Disparities%20%20-%20Cluster%20Analysis%20-%20All.xlsx)
 
 A full explanation of methods can be found [here](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/data-analysis-workflow.md).
 
