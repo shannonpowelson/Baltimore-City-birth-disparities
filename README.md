@@ -76,6 +76,16 @@ Overall, whether or not prenatal care is obtained is less observed in impoverish
 
 Based on the R-squared values, we can see that for white communities, 42% of the data fits the linear regression model.  However, for black communities, 6.8% of the data fits the linear regression model.  Therefore, we are more certain of a positive association between prenatal care and percent of babies born with a satisfactory birth weight for white neighborhoods than we are for black neighborhoods.
 
+In order to find out if these variables used in the regressions are significant (p<0.05), we used the data analysis toolpak to find the p-values.  
+
+These are the results for the predominantly black communities:
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/BlackRegressionStats.png)
+
+These are the results for the predominantly white communities:
+![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/WhiteRegressionStats.png)
+
+We can therefore conclude that there is evidence to suggest that the association between prenatal care and satisfactory birth weight percentages for predominantly white communities exists in the overall population since p = 0.0049 which is less than 0.05.  However, there is not enough evidence to suggest that the association between prenatal care and satisfactory birth weight percentages for predominantly black communities exists in the overall population since p = 0.1 which is greater than 0.05.  
+
 ![alt text](https://github.com/shannonpowelson/Baltimore-City-birth-weight-disparities/blob/main/Clusters_with_Percent_Black.png)
 
 One final analysis we took was geographic, matching clustering of communities to their locations on the Baltimore map. These clusters take into account black/African American communities instead of all proportions, though a similar outcome is observed for the combined clusters. This model bears striking resemblance to the plot observed soley for race found in the article describing the ["black butterfly'](https://apps.urban.org/features/baltimore-investment-flows/). This indicates that outcomes for SBW follow trends in race and that racial inequalities may be the largest factor predictive of SBW.
